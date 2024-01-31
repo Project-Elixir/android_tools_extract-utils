@@ -1970,7 +1970,7 @@ function extract() {
 # Convert prebuilt protobuf CarrierSettings files to CarrierConfig vendor.xml
 #
 function extract_carriersettings() {
-    local CARRIERSETTINGS_EXTRACTOR="$ANDROID_ROOT"/lineage/scripts/carriersettings-extractor/carriersettings_extractor.py
+    local CARRIERSETTINGS_EXTRACTOR="$ANDROID_ROOT"/elixir/scripts/carriersettings-extractor/carriersettings_extractor.py
     local SRC="$ANDROID_ROOT"/"$OUTDIR"/proprietary/product/etc/CarrierSettings
     local CARRIERSETTINGS_OUTPUT_DIR="$ANDROID_ROOT"/"$OUTDIR"/rro_overlays/CarrierConfigOverlay/res/xml
 
